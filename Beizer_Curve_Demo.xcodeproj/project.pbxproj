@@ -23,6 +23,8 @@
 		5495CF411761EDFA00B174B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5495CF1C1761EDFA00B174B4 /* Foundation.framework */; };
 		5495CF491761EDFA00B174B4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5495CF471761EDFA00B174B4 /* InfoPlist.strings */; };
 		5495CF4C1761EDFA00B174B4 /* curveTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5495CF4B1761EDFA00B174B4 /* curveTestTests.m */; };
+		5495CF591761EE4F00B174B4 /* marker.png in Resources */ = {isa = PBXBuildFile; fileRef = 5495CF561761EE4F00B174B4 /* marker.png */; };
+		5495CF5A1761EE4F00B174B4 /* marker@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5495CF571761EE4F00B174B4 /* marker@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,14 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5495CF171761EDFA00B174B4 /* curveTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = curveTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5495CF171761EDFA00B174B4 /* Beizer_Curve_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Beizer_Curve_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5495CF1A1761EDFA00B174B4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5495CF1C1761EDFA00B174B4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5495CF1E1761EDFA00B174B4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5495CF221761EDFA00B174B4 /* curveTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "curveTest-Info.plist"; sourceTree = "<group>"; };
+		5495CF221761EDFA00B174B4 /* Beizer_Curve_Demo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beizer_Curve_Demo-Info.plist"; sourceTree = "<group>"; };
 		5495CF241761EDFA00B174B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5495CF261761EDFA00B174B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5495CF281761EDFA00B174B4 /* curveTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "curveTest-Prefix.pch"; sourceTree = "<group>"; };
+		5495CF281761EDFA00B174B4 /* Beizer_Curve_Demo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Beizer_Curve_Demo-Prefix.pch"; sourceTree = "<group>"; };
 		5495CF291761EDFA00B174B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5495CF2A1761EDFA00B174B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5495CF2C1761EDFA00B174B4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -52,12 +54,14 @@
 		5495CF331761EDFA00B174B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5495CF351761EDFA00B174B4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5495CF361761EDFA00B174B4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5495CF3D1761EDFA00B174B4 /* curveTestTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = curveTestTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5495CF3D1761EDFA00B174B4 /* Beizer_Curve_DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Beizer_Curve_DemoTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5495CF3E1761EDFA00B174B4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		5495CF461761EDFA00B174B4 /* curveTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "curveTestTests-Info.plist"; sourceTree = "<group>"; };
+		5495CF461761EDFA00B174B4 /* Beizer_Curve_DemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Beizer_Curve_DemoTests-Info.plist"; sourceTree = "<group>"; };
 		5495CF481761EDFA00B174B4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5495CF4A1761EDFA00B174B4 /* curveTestTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = curveTestTests.h; sourceTree = "<group>"; };
 		5495CF4B1761EDFA00B174B4 /* curveTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = curveTestTests.m; sourceTree = "<group>"; };
+		5495CF561761EE4F00B174B4 /* marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = marker.png; sourceTree = "<group>"; };
+		5495CF571761EE4F00B174B4 /* marker@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "marker@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +91,7 @@
 		5495CF0E1761EDF900B174B4 = {
 			isa = PBXGroup;
 			children = (
-				5495CF201761EDFA00B174B4 /* curveTest */,
+				5495CF201761EDFA00B174B4 /* Beizer_Curve_Demo */,
 				5495CF441761EDFA00B174B4 /* curveTestTests */,
 				5495CF191761EDFA00B174B4 /* Frameworks */,
 				5495CF181761EDFA00B174B4 /* Products */,
@@ -97,8 +101,8 @@
 		5495CF181761EDFA00B174B4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5495CF171761EDFA00B174B4 /* curveTest.app */,
-				5495CF3D1761EDFA00B174B4 /* curveTestTests.octest */,
+				5495CF171761EDFA00B174B4 /* Beizer_Curve_Demo.app */,
+				5495CF3D1761EDFA00B174B4 /* Beizer_Curve_DemoTests.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -114,7 +118,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5495CF201761EDFA00B174B4 /* curveTest */ = {
+		5495CF201761EDFA00B174B4 /* Beizer_Curve_Demo */ = {
 			isa = PBXGroup;
 			children = (
 				5495CF291761EDFA00B174B4 /* AppDelegate.h */,
@@ -124,16 +128,19 @@
 				5495CF361761EDFA00B174B4 /* ViewController.m */,
 				5495CF211761EDFA00B174B4 /* Supporting Files */,
 			);
+			name = Beizer_Curve_Demo;
 			path = curveTest;
 			sourceTree = "<group>";
 		};
 		5495CF211761EDFA00B174B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5495CF221761EDFA00B174B4 /* curveTest-Info.plist */,
+				5495CF561761EE4F00B174B4 /* marker.png */,
+				5495CF571761EE4F00B174B4 /* marker@2x.png */,
+				5495CF221761EDFA00B174B4 /* Beizer_Curve_Demo-Info.plist */,
 				5495CF231761EDFA00B174B4 /* InfoPlist.strings */,
 				5495CF261761EDFA00B174B4 /* main.m */,
-				5495CF281761EDFA00B174B4 /* curveTest-Prefix.pch */,
+				5495CF281761EDFA00B174B4 /* Beizer_Curve_Demo-Prefix.pch */,
 				5495CF2C1761EDFA00B174B4 /* Default.png */,
 				5495CF2E1761EDFA00B174B4 /* Default@2x.png */,
 				5495CF301761EDFA00B174B4 /* Default-568h@2x.png */,
@@ -154,7 +161,7 @@
 		5495CF451761EDFA00B174B4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5495CF461761EDFA00B174B4 /* curveTestTests-Info.plist */,
+				5495CF461761EDFA00B174B4 /* Beizer_Curve_DemoTests-Info.plist */,
 				5495CF471761EDFA00B174B4 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -163,9 +170,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5495CF161761EDFA00B174B4 /* curveTest */ = {
+		5495CF161761EDFA00B174B4 /* Beizer_Curve_Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5495CF4F1761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "curveTest" */;
+			buildConfigurationList = 5495CF4F1761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "Beizer_Curve_Demo" */;
 			buildPhases = (
 				5495CF131761EDFA00B174B4 /* Sources */,
 				5495CF141761EDFA00B174B4 /* Frameworks */,
@@ -175,14 +182,14 @@
 			);
 			dependencies = (
 			);
-			name = curveTest;
+			name = Beizer_Curve_Demo;
 			productName = curveTest;
-			productReference = 5495CF171761EDFA00B174B4 /* curveTest.app */;
+			productReference = 5495CF171761EDFA00B174B4 /* Beizer_Curve_Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5495CF3C1761EDFA00B174B4 /* curveTestTests */ = {
+		5495CF3C1761EDFA00B174B4 /* Beizer_Curve_DemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5495CF521761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "curveTestTests" */;
+			buildConfigurationList = 5495CF521761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "Beizer_Curve_DemoTests" */;
 			buildPhases = (
 				5495CF381761EDFA00B174B4 /* Sources */,
 				5495CF391761EDFA00B174B4 /* Frameworks */,
@@ -194,9 +201,9 @@
 			dependencies = (
 				5495CF431761EDFA00B174B4 /* PBXTargetDependency */,
 			);
-			name = curveTestTests;
+			name = Beizer_Curve_DemoTests;
 			productName = curveTestTests;
-			productReference = 5495CF3D1761EDFA00B174B4 /* curveTestTests.octest */;
+			productReference = 5495CF3D1761EDFA00B174B4 /* Beizer_Curve_DemoTests.octest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +215,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = StandardUser;
 			};
-			buildConfigurationList = 5495CF121761EDFA00B174B4 /* Build configuration list for PBXProject "curveTest" */;
+			buildConfigurationList = 5495CF121761EDFA00B174B4 /* Build configuration list for PBXProject "Beizer_Curve_Demo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +227,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5495CF161761EDFA00B174B4 /* curveTest */,
-				5495CF3C1761EDFA00B174B4 /* curveTestTests */,
+				5495CF161761EDFA00B174B4 /* Beizer_Curve_Demo */,
+				5495CF3C1761EDFA00B174B4 /* Beizer_Curve_DemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +243,8 @@
 				5495CF2F1761EDFA00B174B4 /* Default@2x.png in Resources */,
 				5495CF311761EDFA00B174B4 /* Default-568h@2x.png in Resources */,
 				5495CF341761EDFA00B174B4 /* MainStoryboard.storyboard in Resources */,
+				5495CF591761EE4F00B174B4 /* marker.png in Resources */,
+				5495CF5A1761EE4F00B174B4 /* marker@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,7 +298,7 @@
 /* Begin PBXTargetDependency section */
 		5495CF431761EDFA00B174B4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5495CF161761EDFA00B174B4 /* curveTest */;
+			target = 5495CF161761EDFA00B174B4 /* Beizer_Curve_Demo */;
 			targetProxy = 5495CF421761EDFA00B174B4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -382,9 +391,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "curveTest/curveTest-Prefix.pch";
-				INFOPLIST_FILE = "curveTest/curveTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "curveTest/Beizer_Curve_Demo-Prefix.pch";
+				INFOPLIST_FILE = "curveTest/Beizer_Curve_Demo-Info.plist";
+				PRODUCT_NAME = Beizer_Curve_Demo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +402,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "curveTest/curveTest-Prefix.pch";
-				INFOPLIST_FILE = "curveTest/curveTest-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "curveTest/Beizer_Curve_Demo-Prefix.pch";
+				INFOPLIST_FILE = "curveTest/Beizer_Curve_Demo-Info.plist";
+				PRODUCT_NAME = Beizer_Curve_Demo;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -410,8 +419,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "curveTest/curveTest-Prefix.pch";
-				INFOPLIST_FILE = "curveTestTests/curveTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "curveTestTests/Beizer_Curve_DemoTests-Info.plist";
+				PRODUCT_NAME = Beizer_Curve_DemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -427,8 +436,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "curveTest/curveTest-Prefix.pch";
-				INFOPLIST_FILE = "curveTestTests/curveTestTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "curveTestTests/Beizer_Curve_DemoTests-Info.plist";
+				PRODUCT_NAME = Beizer_Curve_DemoTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -437,7 +446,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5495CF121761EDFA00B174B4 /* Build configuration list for PBXProject "curveTest" */ = {
+		5495CF121761EDFA00B174B4 /* Build configuration list for PBXProject "Beizer_Curve_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5495CF4D1761EDFA00B174B4 /* Debug */,
@@ -446,21 +455,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5495CF4F1761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "curveTest" */ = {
+		5495CF4F1761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "Beizer_Curve_Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5495CF501761EDFA00B174B4 /* Debug */,
 				5495CF511761EDFA00B174B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5495CF521761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "curveTestTests" */ = {
+		5495CF521761EDFA00B174B4 /* Build configuration list for PBXNativeTarget "Beizer_Curve_DemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5495CF531761EDFA00B174B4 /* Debug */,
 				5495CF541761EDFA00B174B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
