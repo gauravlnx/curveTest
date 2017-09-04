@@ -9,6 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-@property (strong, nonatomic) UIImageView *imageView;
 
 @end
